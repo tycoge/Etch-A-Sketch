@@ -5,6 +5,8 @@ const container = document.querySelector('.container')
 for(let i = 0;i <= 16;i++){
     for(let i = 0;i <= 16;i++){
         let cell = document.createElement('div')
-        .container.append
+        cell.textContent = 'f'
+        container.appendChild(cell)
+
     }
 }
